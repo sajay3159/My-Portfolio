@@ -1,0 +1,58 @@
+.home {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 35px;
+}
+/* .profile-img {
+  margin-top: 30px;
+  width: 240px;
+  border-radius: 50%;
+} */
+.home img {
+  margin-top: 150px;
+}
+.home h1 {
+  text-align: center;
+  width: 70%;
+  font-size: 90px;
+  font-weight: 600;
+}
+.home h1 span {
+  background: linear-gradient(270deg, #df8908, #d415ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.home p {
+  width: 50%;
+  text-align: center;
+  font-size: 24px;
+  line-height: 40px;
+}
+.home-action {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+.home-connect {
+  padding: 25px;
+  border-radius: 50px;
+  background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
+  cursor: pointer;
+}
+.home-resume {
+  padding: 25px 75px;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+.home-connect:hover {
+  border: 2px solid white;
+}
+.home-resume:hover {
+  border-color: #b415ff;
+}
