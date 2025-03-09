@@ -49,6 +49,7 @@
   border-radius: 50px;
   border: 2px solid #fff;
   cursor: pointer;
+  text-decoration: none;
 }
 .home-connect:hover {
   border: 2px solid white;
