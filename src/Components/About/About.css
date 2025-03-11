@@ -77,14 +77,18 @@
 .about-achievement h1 {
   font-size: 60px;
   font-weight: 700;
-  /* background: linear-gradient(270 deg, #df8908 50.41, #b415ff 94.12%); */
+  background: linear-gradient(270deg, #df8908, #b415ff);
   background-clip: text;
   -webkit-background-clip: text;
-  /* -webkit-text-fill-color: transparent; */
+  -webkit-text-fill-color: transparent;
 }
 .about-achievement p {
   font-size: 22px;
   font-weight: 500;
+  background: linear-gradient(270deg, #df8908, #b415ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .about-skill:hover {
   transform: scale(1.05);
