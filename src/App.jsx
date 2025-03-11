@@ -1,5 +1,6 @@
 import About from "./Components/About/About";
 import Home from "./Components/Home/Home";
+import MyWork from "./Components/My -Work/MyWork";
 import Navbar from "./Components/navbar/Navbar";
 import Services from "./Components/Services/Services";
 
@@ -10,7 +11,8 @@ function App() {
       <Navbar />
       <Home />
       <About />
-      <Services/>
+      <Services />
+      <MyWork />
     </div>
   )
 }
