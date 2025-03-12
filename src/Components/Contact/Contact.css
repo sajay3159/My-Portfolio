@@ -55,6 +55,18 @@
   align-items: center;
   gap: 20px;
 }
+.contact-detail a {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #d8d8d8;
+  text-decoration: none;
+  font-size: 22px;
+}
+.contact-detail a:hover {
+  color: #b415ff;
+  text-decoration: underline;
+}
 .contact-right {
   display: flex;
   flex-direction: column;

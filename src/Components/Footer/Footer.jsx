@@ -9,8 +9,7 @@ const Footer = () => {
             <div className="footer-top">
                 <div className="footer-top-left">
                     <img src={footer_logo} alt="" />
-                    <p>I am a frontend developer from, USA with 10 years of experience in companies like Microsoft, Tesla and Apple.</p>
-                </div>
+                    <p>I am a Frontend Developer from Vadodara, Gujarat with 1.5 years in a Company, Emarket Experts</p>                </div>
                 <div className="footer-top-right">
                     <div className="footer-email-input">
                         <img src={user_icon} alt="" />
@@ -22,6 +21,11 @@ const Footer = () => {
             <hr />
             <div className="footer-bottom">
                 <p className="footer-bottom-left">© 2025 Ajay Sahani. All rights reserved</p>
+                <div className="footer-bottom-right">
+                    <p>Term of Services</p>
+                    <p>Privacy Policy</p>
+                    <p>Connect with me</p>
+                </div>
             </div>
         </div>
     )
