@@ -74,11 +74,21 @@
   }
   .footer-bottom-right {
     margin-bottom: 0px;
+    width: 100%;
   }
   .footer-bottom-left {
     font-size: 18px;
   }
   .footer-bottom-right p {
     font-size: 18px;
+  }
+
+  .footer-top-right {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .footer-email-input {
+    width: 30%;
+    margin-bottom: 10px;
   }
 }
