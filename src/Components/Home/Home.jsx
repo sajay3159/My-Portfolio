@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <div id="home" className='home'>
             <img src={profile_img} alt="Profile" />
-            <h1><span>I'm Ajay Sahani</span>, Frontend Developer based in India</h1>
+            <h1><span>I'm Ajay Sahani</span>, Frontend Developer </h1>
             <p>I am a Frontend Developer from Vadodara, Gujarat with 1.5 years in a Company, Emarket Experts</p>
             <div className="home-action">
                 <div className="home-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect with me</AnchorLink></div>
