@@ -24,7 +24,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 40px;
-  /* margin-bottom: 80px; */
 }
 .mywork-container img {
   box-sizing: border-box;
@@ -51,13 +50,14 @@
   font-weight: 500;
   margin-bottom: 80px;
   gap: 20px;
-  /* transition: 0.6s; */
   cursor: pointer;
 }
 .mywork-showmore:hover {
   gap: 30px;
   transition: 0.6s;
 }
+
+/* Responsive Design: max-width: 768px */
 @media (max-width: 768px) {
   .mywork {
     gap: 50px;
@@ -67,7 +67,6 @@
   .mywork-title h1 {
     padding: 0;
     font-size: 50px;
-    font-weight: 600;
   }
   .mywork-title img {
     width: 130px;
@@ -85,6 +84,37 @@
     padding: 20px 40px;
     font-size: 18px;
     margin: 50px auto;
-    cursor: pointer;
+  }
+}
+
+/* Responsive Design: max-width: 480px */
+@media (max-width: 480px) {
+  .mywork {
+    gap: 30px;
+    margin: 30px 20px;
+  }
+  .mywork-title h1 {
+    font-size: 30px;
+    text-align: center;
+    padding: 0 10px;
+  }
+  .mywork-title img {
+    width: 100px;
+    margin-right: -10px;
+  }
+  .mywork-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .mywork-container img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+  }
+  .mywork-showmore {
+    padding: 15px 30px;
+    font-size: 16px;
+    margin: 30px auto;
   }
 }

@@ -3,14 +3,12 @@
   align-items: center;
   flex-direction: column;
   gap: 35px;
+  padding-top: 50px; /* Added padding for top spacing */
 }
-/* .profile-img {
-  margin-top: 30px;
-  width: 240px;
-  border-radius: 50%;
-} */
 .home img {
   margin-top: 150px;
+  width: 240px;
+  border-radius: 50%;
 }
 .home h1 {
   text-align: center;
@@ -57,13 +55,14 @@
 .home-resume:hover {
   border-color: #b415ff;
 }
+
+/* Responsive Design for max-width: 768px */
 @media (max-width: 768px) {
   .home img {
     margin-top: 120px;
     width: 260px;
   }
   .home h1 {
-    /* margin-top: 50px; */
     width: 90%;
     font-size: 50px;
   }
@@ -76,7 +75,6 @@
   .home-action {
     gap: 16px;
     font-size: 18px;
-    font-weight: 500;
     margin-bottom: 50px;
   }
   .home-connect {
@@ -86,5 +84,41 @@
   .home-resume {
     padding: 20px 50px;
     border-radius: 40px;
+  }
+}
+
+/* Responsive Design for max-width: 480px */
+@media (max-width: 480px) {
+  .home {
+    gap: 25px;
+    padding-top: 20px;
+  }
+  .home img {
+    width: 180px;
+    margin-top: 60px;
+  }
+  .home h1 {
+    font-size: 30px;
+    width: 80%;
+    padding: 0 10px;
+  }
+  .home p {
+    width: 80%;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 8px 0;
+  }
+  .home-action {
+    flex-direction: column;
+    gap: 20px;
+    font-size: 16px;
+  }
+  .home-connect {
+    padding: 15px 25px;
+    border-radius: 30px;
+  }
+  .home-resume {
+    padding: 15px 40px;
+    border-radius: 30px;
   }
 }
