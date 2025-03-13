@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css';
-import profile_img from '../../assets/profile_img.jpeg';
+import profile_img from '../../assets/profile_img.jpg';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Home = () => {
