@@ -59,7 +59,7 @@
 }
 @media (max-width: 768px) {
   .home img {
-    margin-bottom: 120px;
+    margin-top: 120px;
     width: 260px;
   }
   .home h1 {
