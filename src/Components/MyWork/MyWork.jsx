@@ -5,17 +5,14 @@ import mywork_data from '../../assets/mywork_data';
 import arrow_icon from '../../assets/arrow_icon.svg';
 
 const MyWork = () => {
-    // State to track how many projects are visible
     const [visibleProjects, setVisibleProjects] = useState(3);
 
-    // Function to handle "Show More" click
     const handleShowMore = () => {
-        setVisibleProjects(visibleProjects + 3); // Increase the number of visible projects by 3
+        setVisibleProjects(visibleProjects + 3);
     };
 
-    // Function to handle "Show Less" click (reset to 3 visible projects)
     const handleShowLess = () => {
-        setVisibleProjects(3); // Reset to show only 3 projects
+        setVisibleProjects(3);
     };
 
     return (
