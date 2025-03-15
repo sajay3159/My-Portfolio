@@ -48,12 +48,15 @@
   border: 2px solid #fff;
   cursor: pointer;
   text-decoration: none;
+  color: white;
 }
-.home-connect:hover {
+/* .home-connect:hover {
   border: 2px solid white;
-}
+  color: #b415ff;
+} */
 .home-resume:hover {
-  border-color: #b415ff;
+  border-color: green;
+  color: green;
 }
 
 /* Responsive Design for max-width: 768px */

@@ -249,7 +249,7 @@
 /* For very small screens (up to 480px) */
 @media (max-width: 480px) {
   .contact {
-    gap: 40px;
+    gap: 10px;
     margin: 40px 20px;
   }
 
