@@ -271,17 +271,17 @@
 
   .contact-left h1 {
     font-size: 36px;
-    text-align: center;
+    text-align: left;
   }
 
   .contact-left p {
     font-size: 16px;
-    text-align: center;
+    text-align: left;
   }
 
   .contact-detail {
     gap: 10px;
-    text-align: center;
+    text-align: left;
   }
 
   .contact-detail img {
@@ -290,18 +290,18 @@
 
   .contact-right label {
     font-size: 18px;
-    text-align: center;
+    text-align: left;
   }
 
   .contact-right input {
-    width: 100%;
+    width: 98%;
     font-size: 16px;
     padding-left: 15px;
     height: 60px;
   }
 
   .contact-right textarea {
-    width: 100%;
+    width: 95%;
     font-size: 16px;
     padding: 15px;
   }

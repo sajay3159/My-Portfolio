@@ -16,15 +16,13 @@ const About = () => {
                 </div>
                 <div className="about-right">
                     <div className="about-para">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia explicabo harum asperiores, voluptas similique qui rem error recusandae, possimus dolor architecto ab id at voluptate ut vero, laboriosam autem culpa?
-                            Nemo recusandae facilis fugit delectus unde aperiam eius repudiandae assumenda aliquid necessitatibus nobis optio maiores excepturi minus quas eum modi possimus earum explicabo omnis architecto ut, iure sequi. Consequuntur, eligendi?
-                        </p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum alias magnam tempore. Optio non maxime, distinctio sint delectus quod doloribus ab quibusdam necessitatibus molestias accusantium voluptatem totam, libero in vel?</p>
+                        <p>As a Front End Developer, I excel in creating attractive and efficient digital experiences. Proficient in HTML5, CSS3, JavaScript and TypeScript, I have expertise in designing layouts, building dynamic interfaces, and optimizing website performance.</p>
+                        <p>I leverage front-end libraries like React to develop robust web applications with a focus on scalability, maintainability, and an exceptional user experience. Committed to staying updated on industry advancements, I continuously refine my skills to deliver cutting-edge solutions.</p>
                     </div>
                     <div className="about-skills">
                         <div className="about-skill"><p>HTML && CSS</p><hr style={{ width: "50%" }} />  </div>
-                        <div className="about-skill"><p>React JS</p><hr style={{ width: "70%" }} /></div>
                         <div className="about-skill"><p>JavaScript</p><hr style={{ width: "60%" }} /></div>
+                        <div className="about-skill"><p>React JS</p><hr style={{ width: "70%" }} /></div>
                         <div className="about-skill"><p>Next JS</p><hr style={{ width: "50%" }} /></div>
                     </div>
                 </div>
