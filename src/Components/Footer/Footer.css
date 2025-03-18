@@ -152,6 +152,9 @@
   .footer-email-input input {
     font-size: 16px;
   }
+  .footer-email-input img{
+    display: none;
+  }
 
   .footer-subscribe {
     width: 30%;
