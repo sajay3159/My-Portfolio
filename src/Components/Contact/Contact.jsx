@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import './Contact.css';
 import theme_pattern from '../../assets/theme_pattern.svg';
 import mail_icon from '../../assets/mail_icon.svg';
@@ -8,6 +8,8 @@ import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
+    const formRef = useRef(null);
+
     const onSubmit = async (event) => {
         event.preventDefault();
         const formData = new FormData(event.target);
@@ -29,6 +31,7 @@ const Contact = () => {
 
             if (res.success) {
                 toast.success(res.message);
+                formRef.current.reset(); 
             } else {
                 toast.error(res.message);
             }
@@ -68,12 +71,12 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                <form onSubmit={onSubmit} className="contact-right">
-                    <label htmlFor="">Your Name</label>
+                <form ref={formRef} onSubmit={onSubmit} className="contact-right">
+                    <label>Your Name</label>
                     <input type="text" placeholder="Enter your name" name="name" required />
-                    <label htmlFor="">Your Email</label>
+                    <label>Your Email</label>
                     <input type="email" placeholder="Enter your email" name="email" required />
-                    <label htmlFor="">Write your message here</label>
+                    <label>Write your message here</label>
                     <textarea name="message" rows="8" placeholder="Enter your message" required />
                     <button type="submit" className="contact-submit">Submit now</button>
                 </form>
@@ -96,3 +99,6 @@ const Contact = () => {
 };
 
 export default Contact;
+
+
+
