@@ -40,7 +40,7 @@ const About = () => {
                 <hr />
                 <div className="about-achievement">
                     <h1> 10+ </h1>
-                    <p> HAPPY CLIENTS</p>
+                    <p> PROJECT REVIEW</p>
                 </div>
             </div>
         </div>
