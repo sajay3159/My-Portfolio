@@ -6,19 +6,18 @@ import MyWork from "./Components/MyWork/MyWork";
 import Navbar from "./Components/Navbar/Navbar";
 import Services from "./Components/Services/Services";
 
-
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Home />
       <About />
-      <Services />
       <MyWork />
+      <Services />
       <Contact />
       <Footer />
     </div>
-  )
+  );
 }
 
 export default App;
