@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import  { useRef } from 'react';
 import './Contact.css';
 import theme_pattern from '../../assets/theme_pattern.svg';
 import mail_icon from '../../assets/mail_icon.svg';
@@ -82,7 +82,6 @@ const Contact = () => {
                 </form>
             </div>
 
-            {/* ToastContainer to display toasts */}
             <ToastContainer
                 position="top-right"
                 autoClose={1000}
