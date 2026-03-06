@@ -8,7 +8,7 @@ const MyWork = () => {
   const [visibleProjects, setVisibleProjects] = useState(3);
 
   const handleShowMore = () => {
-    setVisibleProjects((prev) => Math.min(prev + 3, mywork_data.length));
+    setVisibleProjects(mywork_data.length);
   };
 
   const handleShowLess = () => {
